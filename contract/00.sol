@@ -33,8 +33,6 @@ contract Test00 {
         return (1, 2);
     }
 
-   
-
 }
  contract TryCatchExample {
     function tryCatchDemo(address _contractAddress) public returns(uint) {

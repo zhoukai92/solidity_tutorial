@@ -19,7 +19,7 @@ contract Task_00 {
         pure
         returns (bytes memory)
     {
-        return (abi.encode(text, num));
+        return (abi.encode(text, num)); 
     }
     
     function decode(bytes memory bs)
