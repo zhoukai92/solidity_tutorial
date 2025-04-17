@@ -43,4 +43,7 @@ contract Test00 {
         return true;
     }
     
+    function test00(address to, uint amount) payable public returns (bool succ, uint a) {
+        return (true, 1);
+    }
 }

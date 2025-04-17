@@ -77,6 +77,35 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "test00",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "succ",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -107,11 +136,11 @@
 	},
 	"sources": {
 		"contract/事件/Test00.sol": {
-			"keccak256": "0xbaf72a2922ee14cf0c1da9a8697f6f1bcec30413073d3a1168dbd63c4456a017",
+			"keccak256": "0x462f72df30811a5a3ee66e9be5a816b39595d88f9f855cd7921cb09ed7487bb2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc64cdac9c371d0a90c38424c894d755e7fed451302349877ccda1e7f7ca1813",
-				"dweb:/ipfs/Qmaz7wL3atNqsi7Fy7GyUdsLLS3awxdXfTzmRn8oZEV623"
+				"bzz-raw://376211d257548ea550f8d7782ac483a1e9a97bf7a2e3a71d61e3ef13f4c7caa6",
+				"dweb:/ipfs/QmeoLviKWZmZYihjtddjKof6jz2q1mcj8mFiYSMQSzDa2A"
 			]
 		},
 		"hardhat/console.sol": {

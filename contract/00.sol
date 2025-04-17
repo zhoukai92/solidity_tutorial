@@ -8,7 +8,9 @@ contract Test00 {
     int256[] public nums;
     // bytes public bs = "abc";
     // bytes1 public bs2 = "a";
-    // bytes public age = "b";
+    // bytes public age = "b";不是
+
+    address public immutable owner = msg.sender;
 
     mapping(address => uint256) public map;
 

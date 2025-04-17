@@ -68,11 +68,11 @@
 			]
 		},
 		"contract/函数库/math.sol": {
-			"keccak256": "0xef10bb99d9f7b791e503b2366cf4cb45899941334ff0ed47cc3e95c3f20ebd94",
+			"keccak256": "0x80537452addde36a7e518eed2e54a44f5d1779ec9fae9f0eb00230938606290c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://332d870de833cc3cdb66762e4e796860264b653fe61bf8fa66a9d17cd65126fc",
-				"dweb:/ipfs/QmcVarKkLAGc5yE7vC6a8XBvPhtoyF59dhEN1Hv4EYjFvL"
+				"bzz-raw://b5778b1b60b032c0abc0ad59651b6fd705a3aa3270cbc3de16ab043deea56a78",
+				"dweb:/ipfs/QmVyrP3c92gzY4FBpM53a1VFi2UcpbF6RR4N3cP16BZ3Qa"
 			]
 		},
 		"hardhat/console.sol": {
